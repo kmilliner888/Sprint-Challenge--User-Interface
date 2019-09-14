@@ -85,7 +85,7 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.home-middle {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -232,4 +232,37 @@ nav li a {
 .box-10 {
     background: dodgerblue;
     color: white;
+}
+
+
+/*  CSS FOR ABOUT PAGE */
+
+.about {
+    padding: 10px;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.strategy, .working, .office, .meeting {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 20px 0px;
+}
+
+.middle-content h1 {
+    margin-top: 10px;
+}
+
+.learn {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    width: 80px;
+    background: white;
+    margin: 15px 0px;
 }
