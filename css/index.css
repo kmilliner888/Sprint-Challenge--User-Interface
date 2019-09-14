@@ -85,7 +85,7 @@ p {
     padding-bottom: 20px;  
 }
 
-.home-middle {
+.middle-content, .home-middle {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -242,10 +242,11 @@ nav li a {
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.about-middle{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    border: none;
 }
 
 .strategy, .working, .office, .meeting {
@@ -260,9 +261,15 @@ nav li a {
 
 .learn {
     border: 1px solid black;
-    border-radius: 5px;
-    padding: 4px;
-    width: 80px;
+    border-radius: 6px;
+    padding: 5px;
+    width: 90px;
     background: white;
     margin: 15px 0px;
 }
+
+.about-bottom {
+    display: block;
+    margin-bottom: 30px;
+}
+
